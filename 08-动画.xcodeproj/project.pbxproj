@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70186FE81BC915C80082A71F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186FE71BC915C80082A71F /* main.m */; };
+		70186FEB1BC915C80082A71F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186FEA1BC915C80082A71F /* AppDelegate.m */; };
+		70186FEE1BC915C80082A71F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186FED1BC915C80082A71F /* ViewController.m */; };
+		70186FF11BC915C80082A71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186FEF1BC915C80082A71F /* Main.storyboard */; };
+		70186FF31BC915C80082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186FF21BC915C80082A71F /* Assets.xcassets */; };
+		70186FF61BC915C80082A71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186FF41BC915C80082A71F /* LaunchScreen.storyboard */; };
+		701870011BC915C80082A71F /* _8___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701870001BC915C80082A71F /* _8___Tests.m */; };
+		7018700C1BC915C80082A71F /* _8___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7018700B1BC915C80082A71F /* _8___UITests.m */; };
+		701870111BC915C80082A71F /* 08-动画 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 701870101BC915C80082A71F /* 08-动画 WatchKit App.app */; };
+		701870171BC915C80082A71F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701870151BC915C80082A71F /* Interface.storyboard */; };
+		701870191BC915C80082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701870181BC915C80082A71F /* Assets.xcassets */; };
+		701870201BC915C80082A71F /* 08-动画 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7018701F1BC915C80082A71F /* 08-动画 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		701870281BC915C80082A71F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701870271BC915C80082A71F /* InterfaceController.m */; };
+		7018702B1BC915C80082A71F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7018702A1BC915C80082A71F /* ExtensionDelegate.m */; };
+		7018702E1BC915C80082A71F /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7018702D1BC915C80082A71F /* NotificationController.m */; };
+		701870301BC915C80082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7018702F1BC915C80082A71F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70186FFD1BC915C80082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186FDB1BC915C80082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186FE21BC915C80082A71F;
+			remoteInfo = "08-动画";
+		};
+		701870081BC915C80082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186FDB1BC915C80082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186FE21BC915C80082A71F;
+			remoteInfo = "08-动画";
+		};
+		701870121BC915C80082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186FDB1BC915C80082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7018700F1BC915C80082A71F;
+			remoteInfo = "08-动画 WatchKit App";
+		};
+		701870211BC915C80082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186FDB1BC915C80082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7018701E1BC915C80082A71F;
+			remoteInfo = "08-动画 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		701870371BC915C80082A71F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				701870201BC915C80082A71F /* 08-动画 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018703B1BC915C80082A71F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				701870111BC915C80082A71F /* 08-动画 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70186FE31BC915C80082A71F /* 08-动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186FE71BC915C80082A71F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70186FE91BC915C80082A71F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70186FEA1BC915C80082A71F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70186FEC1BC915C80082A71F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70186FED1BC915C80082A71F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70186FF01BC915C80082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70186FF21BC915C80082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186FF51BC915C80082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70186FF71BC915C80082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186FFC1BC915C80082A71F /* 08-动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701870001BC915C80082A71F /* _8___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8___Tests.m"; sourceTree = "<group>"; };
+		701870021BC915C80082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701870071BC915C80082A71F /* 08-动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018700B1BC915C80082A71F /* _8___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8___UITests.m"; sourceTree = "<group>"; };
+		7018700D1BC915C80082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701870101BC915C80082A71F /* 08-动画 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-动画 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701870161BC915C80082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		701870181BC915C80082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7018701A1BC915C80082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7018701F1BC915C80082A71F /* 08-动画 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "08-动画 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701870251BC915C80082A71F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		701870261BC915C80082A71F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		701870271BC915C80082A71F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		701870291BC915C80082A71F /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		7018702A1BC915C80082A71F /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		7018702C1BC915C80082A71F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		7018702D1BC915C80082A71F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		7018702F1BC915C80082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701870311BC915C80082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70186FE01BC915C80082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186FF91BC915C80082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701870041BC915C80082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018701C1BC915C80082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70186FDA1BC915C80082A71F = {
+			isa = PBXGroup;
+			children = (
+				70186FE51BC915C80082A71F /* 08-动画 */,
+				70186FFF1BC915C80082A71F /* 08-动画Tests */,
+				7018700A1BC915C80082A71F /* 08-动画UITests */,
+				701870141BC915C80082A71F /* 08-动画 WatchKit App */,
+				701870231BC915C80082A71F /* 08-动画 WatchKit Extension */,
+				70186FE41BC915C80082A71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70186FE41BC915C80082A71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70186FE31BC915C80082A71F /* 08-动画.app */,
+				70186FFC1BC915C80082A71F /* 08-动画Tests.xctest */,
+				701870071BC915C80082A71F /* 08-动画UITests.xctest */,
+				701870101BC915C80082A71F /* 08-动画 WatchKit App.app */,
+				7018701F1BC915C80082A71F /* 08-动画 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70186FE51BC915C80082A71F /* 08-动画 */ = {
+			isa = PBXGroup;
+			children = (
+				70186FE91BC915C80082A71F /* AppDelegate.h */,
+				70186FEA1BC915C80082A71F /* AppDelegate.m */,
+				70186FEC1BC915C80082A71F /* ViewController.h */,
+				70186FED1BC915C80082A71F /* ViewController.m */,
+				70186FEF1BC915C80082A71F /* Main.storyboard */,
+				70186FF21BC915C80082A71F /* Assets.xcassets */,
+				70186FF41BC915C80082A71F /* LaunchScreen.storyboard */,
+				70186FF71BC915C80082A71F /* Info.plist */,
+				70186FE61BC915C80082A71F /* Supporting Files */,
+			);
+			path = "08-动画";
+			sourceTree = "<group>";
+		};
+		70186FE61BC915C80082A71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70186FE71BC915C80082A71F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70186FFF1BC915C80082A71F /* 08-动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				701870001BC915C80082A71F /* _8___Tests.m */,
+				701870021BC915C80082A71F /* Info.plist */,
+			);
+			path = "08-动画Tests";
+			sourceTree = "<group>";
+		};
+		7018700A1BC915C80082A71F /* 08-动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7018700B1BC915C80082A71F /* _8___UITests.m */,
+				7018700D1BC915C80082A71F /* Info.plist */,
+			);
+			path = "08-动画UITests";
+			sourceTree = "<group>";
+		};
+		701870141BC915C80082A71F /* 08-动画 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				701870151BC915C80082A71F /* Interface.storyboard */,
+				701870181BC915C80082A71F /* Assets.xcassets */,
+				7018701A1BC915C80082A71F /* Info.plist */,
+			);
+			path = "08-动画 WatchKit App";
+			sourceTree = "<group>";
+		};
+		701870231BC915C80082A71F /* 08-动画 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				701870261BC915C80082A71F /* InterfaceController.h */,
+				701870271BC915C80082A71F /* InterfaceController.m */,
+				701870291BC915C80082A71F /* ExtensionDelegate.h */,
+				7018702A1BC915C80082A71F /* ExtensionDelegate.m */,
+				7018702C1BC915C80082A71F /* NotificationController.h */,
+				7018702D1BC915C80082A71F /* NotificationController.m */,
+				7018702F1BC915C80082A71F /* Assets.xcassets */,
+				701870311BC915C80082A71F /* Info.plist */,
+				701870241BC915C80082A71F /* Supporting Files */,
+			);
+			path = "08-动画 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		701870241BC915C80082A71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				701870251BC915C80082A71F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70186FE21BC915C80082A71F /* 08-动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018703C1BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画" */;
+			buildPhases = (
+				70186FDF1BC915C80082A71F /* Sources */,
+				70186FE01BC915C80082A71F /* Frameworks */,
+				70186FE11BC915C80082A71F /* Resources */,
+				7018703B1BC915C80082A71F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701870131BC915C80082A71F /* PBXTargetDependency */,
+			);
+			name = "08-动画";
+			productName = "08-动画";
+			productReference = 70186FE31BC915C80082A71F /* 08-动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70186FFB1BC915C80082A71F /* 08-动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018703F1BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画Tests" */;
+			buildPhases = (
+				70186FF81BC915C80082A71F /* Sources */,
+				70186FF91BC915C80082A71F /* Frameworks */,
+				70186FFA1BC915C80082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186FFE1BC915C80082A71F /* PBXTargetDependency */,
+			);
+			name = "08-动画Tests";
+			productName = "08-动画Tests";
+			productReference = 70186FFC1BC915C80082A71F /* 08-动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		701870061BC915C80082A71F /* 08-动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701870421BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画UITests" */;
+			buildPhases = (
+				701870031BC915C80082A71F /* Sources */,
+				701870041BC915C80082A71F /* Frameworks */,
+				701870051BC915C80082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701870091BC915C80082A71F /* PBXTargetDependency */,
+			);
+			name = "08-动画UITests";
+			productName = "08-动画UITests";
+			productReference = 701870071BC915C80082A71F /* 08-动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7018700F1BC915C80082A71F /* 08-动画 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701870381BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画 WatchKit App" */;
+			buildPhases = (
+				7018700E1BC915C80082A71F /* Resources */,
+				701870371BC915C80082A71F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701870221BC915C80082A71F /* PBXTargetDependency */,
+			);
+			name = "08-动画 WatchKit App";
+			productName = "08-动画 WatchKit App";
+			productReference = 701870101BC915C80082A71F /* 08-动画 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7018701E1BC915C80082A71F /* 08-动画 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701870341BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画 WatchKit Extension" */;
+			buildPhases = (
+				7018701B1BC915C80082A71F /* Sources */,
+				7018701C1BC915C80082A71F /* Frameworks */,
+				7018701D1BC915C80082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-动画 WatchKit Extension";
+			productName = "08-动画 WatchKit Extension";
+			productReference = 7018701F1BC915C80082A71F /* 08-动画 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70186FDB1BC915C80082A71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					70186FE21BC915C80082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70186FFB1BC915C80082A71F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70186FE21BC915C80082A71F;
+					};
+					701870061BC915C80082A71F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70186FE21BC915C80082A71F;
+					};
+					7018700F1BC915C80082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7018701E1BC915C80082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 70186FDE1BC915C80082A71F /* Build configuration list for PBXProject "08-动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70186FDA1BC915C80082A71F;
+			productRefGroup = 70186FE41BC915C80082A71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70186FE21BC915C80082A71F /* 08-动画 */,
+				70186FFB1BC915C80082A71F /* 08-动画Tests */,
+				701870061BC915C80082A71F /* 08-动画UITests */,
+				7018700F1BC915C80082A71F /* 08-动画 WatchKit App */,
+				7018701E1BC915C80082A71F /* 08-动画 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70186FE11BC915C80082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186FF61BC915C80082A71F /* LaunchScreen.storyboard in Resources */,
+				70186FF31BC915C80082A71F /* Assets.xcassets in Resources */,
+				70186FF11BC915C80082A71F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186FFA1BC915C80082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701870051BC915C80082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018700E1BC915C80082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701870191BC915C80082A71F /* Assets.xcassets in Resources */,
+				701870171BC915C80082A71F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018701D1BC915C80082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701870301BC915C80082A71F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70186FDF1BC915C80082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186FEE1BC915C80082A71F /* ViewController.m in Sources */,
+				70186FEB1BC915C80082A71F /* AppDelegate.m in Sources */,
+				70186FE81BC915C80082A71F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186FF81BC915C80082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701870011BC915C80082A71F /* _8___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701870031BC915C80082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018700C1BC915C80082A71F /* _8___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018701B1BC915C80082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018702B1BC915C80082A71F /* ExtensionDelegate.m in Sources */,
+				701870281BC915C80082A71F /* InterfaceController.m in Sources */,
+				7018702E1BC915C80082A71F /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70186FFE1BC915C80082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186FE21BC915C80082A71F /* 08-动画 */;
+			targetProxy = 70186FFD1BC915C80082A71F /* PBXContainerItemProxy */;
+		};
+		701870091BC915C80082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186FE21BC915C80082A71F /* 08-动画 */;
+			targetProxy = 701870081BC915C80082A71F /* PBXContainerItemProxy */;
+		};
+		701870131BC915C80082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7018700F1BC915C80082A71F /* 08-动画 WatchKit App */;
+			targetProxy = 701870121BC915C80082A71F /* PBXContainerItemProxy */;
+		};
+		701870221BC915C80082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7018701E1BC915C80082A71F /* 08-动画 WatchKit Extension */;
+			targetProxy = 701870211BC915C80082A71F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70186FEF1BC915C80082A71F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186FF01BC915C80082A71F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70186FF41BC915C80082A71F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186FF51BC915C80082A71F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		701870151BC915C80082A71F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701870161BC915C80082A71F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701870321BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		701870331BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701870351BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-动画 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		701870361BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-动画 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		701870391BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_8____WatchKit_Extension";
+				INFOPLIST_FILE = "08-动画 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7018703A1BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_8____WatchKit_Extension";
+				INFOPLIST_FILE = "08-动画 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7018703D1BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "08-动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7018703E1BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "08-动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		701870401BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08-动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08-动画.app/08-动画";
+			};
+			name = Debug;
+		};
+		701870411BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08-动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08-动画.app/08-动画";
+			};
+			name = Release;
+		};
+		701870431BC915C80082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08-动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		701870441BC915C80082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-8---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08-动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70186FDE1BC915C80082A71F /* Build configuration list for PBXProject "08-动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701870321BC915C80082A71F /* Debug */,
+				701870331BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701870341BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701870351BC915C80082A71F /* Debug */,
+				701870361BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		701870381BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701870391BC915C80082A71F /* Debug */,
+				7018703A1BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7018703C1BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018703D1BC915C80082A71F /* Debug */,
+				7018703E1BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7018703F1BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701870401BC915C80082A71F /* Debug */,
+				701870411BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		701870421BC915C80082A71F /* Build configuration list for PBXNativeTarget "08-动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701870431BC915C80082A71F /* Debug */,
+				701870441BC915C80082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70186FDB1BC915C80082A71F /* Project object */;
+}
