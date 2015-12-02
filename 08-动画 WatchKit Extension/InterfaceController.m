@@ -10,16 +10,25 @@
 
 
 @interface InterfaceController()
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceImage *ima;
 
 @end
 
 
 @implementation InterfaceController
+- (IBAction)startAnimation {
+    
+    [self animateWithDuration:2.0 animations:^{
+        [self.ima setHorizontalAlignment:WKInterfaceObjectHorizontalAlignmentRight];
+    }];
+    
+}
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 
     // Configure interface objects here.
+    [self.ima setImage:[UIImage imageNamed:@"minion.jpg"]];
 }
 
 - (void)willActivate {
